@@ -1,0 +1,20 @@
+{
+  "id": 0,
+  "resourcePackages": [],
+  "sections": [
+    {
+      "id": 0,
+      "name": "SalesDashboardPage",
+      "displayName": "Sales Dashboard",
+      "filters": "[]",
+      "ordinal": 0,
+      "visualContainers": [],
+      "config": "{}",
+      "displayOption": 1,
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "config": "{\"version\":\"5.50\",\"activeSectionIndex\":0,\"defaultDrillFilterOtherVisuals\":true}",
+  "layoutOptimization": 0
+}

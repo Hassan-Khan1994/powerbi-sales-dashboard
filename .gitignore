@@ -1,4 +1,7 @@
-# Power BI temp files
+# Power BI cache / local settings (auto-created when you open the PBIP)
+.pbi/
+**/.pbi/
+*.abf
 *.tmp
 ~$*
 
@@ -6,6 +9,3 @@
 Thumbs.db
 .DS_Store
 desktop.ini
-
-# Keep large source files out unless intended
-# *.pbix
