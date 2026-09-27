@@ -1,0 +1,11 @@
+# Power BI temp files
+*.tmp
+~$*
+
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Keep large source files out unless intended
+# *.pbix

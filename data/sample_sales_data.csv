@@ -1,0 +1,601 @@
+OrderID,OrderDate,Region,Segment,SalesRep,Category,Product,Quantity,UnitPrice,Discount,Sales,Profit
+1001,2024-05-02,North,Consumer,Ayesha Malik,Electronics,Smartphone,11,522.66,0,5749.26,2106.75
+1002,2023-06-21,South,Corporate,Sara Khan,Furniture,Desk,8,54.61,0.15,371.35,84.3
+1003,2023-10-18,North,Consumer,Usman Tariq,Appliances,Vacuum,1,716.93,0,716.93,299.08
+1004,2024-05-20,East,Consumer,Ali Raza,Furniture,Bookshelf,12,23.88,0.05,272.23,97.14
+1005,2024-06-30,South,Consumer,Ali Raza,Electronics,Monitor,9,132.87,0,1195.83,442.88
+1006,2023-07-31,West,Consumer,Ali Raza,Office Supplies,Notebook,1,431.96,0.1,388.76,104.95
+1007,2023-06-09,North,Corporate,Sara Khan,Electronics,Monitor,1,474.81,0,474.81,180.06
+1008,2023-11-17,East,Corporate,Ali Raza,Appliances,Microwave,1,82.5,0.1,74.25,4.61
+1009,2024-10-28,Central,Corporate,Bilal Ahmed,Office Supplies,Printer Paper,6,159.04,0.05,906.53,319.37
+1010,2024-01-24,East,Consumer,Hina Shah,Office Supplies,Pen Set,1,884.05,0.2,707.24,82.39
+1011,2024-06-02,North,Consumer,Bilal Ahmed,Furniture,Sofa,3,152,0,456,140.03
+1012,2024-01-10,Central,SME,Usman Tariq,Office Supplies,Stapler,8,990.03,0.1,7128.22,416.83
+1013,2023-09-10,Central,Consumer,Sara Khan,Furniture,Office Chair,4,600.49,0,2401.96,319
+1014,2024-12-26,North,Consumer,Sara Khan,Furniture,Sofa,12,28.86,0,346.32,136.51
+1015,2024-10-16,South,SME,Hina Shah,Furniture,Bookshelf,9,632.82,0,5695.38,1162.1
+1016,2023-05-14,North,Consumer,Hina Shah,Appliances,Blender,2,885.73,0,1771.46,359.91
+1017,2024-02-13,East,SME,Ali Raza,Office Supplies,Stapler,13,456.02,0,5928.26,2592.6
+1018,2023-12-05,East,SME,Usman Tariq,Electronics,Laptop,1,198.22,0.2,158.58,39.97
+1019,2023-10-22,East,Corporate,Ali Raza,Appliances,Toaster,13,189.18,0,2459.34,712.64
+1020,2024-03-25,Central,SME,Usman Tariq,Furniture,Desk,8,808.21,0,6465.68,2656.1
+1021,2024-04-30,North,Consumer,Sara Khan,Appliances,Blender,2,432.1,0.15,734.57,244.64
+1022,2024-07-22,Central,SME,Bilal Ahmed,Appliances,Toaster,3,595.78,0,1787.34,575.52
+1023,2024-01-01,West,Consumer,Usman Tariq,Furniture,Bookshelf,11,216.42,0.05,2261.59,793.87
+1024,2024-02-29,North,SME,Ali Raza,Electronics,Smartphone,5,188.09,0,940.45,183.13
+1025,2024-10-05,East,Corporate,Bilal Ahmed,Appliances,Blender,14,368.61,0.15,4386.46,587.61
+1026,2023-05-14,Central,Corporate,Ayesha Malik,Furniture,Cabinet,2,481.7,0.2,770.72,84.27
+1027,2024-11-02,Central,SME,Ali Raza,Furniture,Bookshelf,1,892.98,0,892.98,300.68
+1028,2024-04-23,Central,Consumer,Hina Shah,Appliances,Microwave,5,664.1,0,3320.5,1128.49
+1029,2024-01-16,South,Corporate,Sara Khan,Office Supplies,Pen Set,9,335.47,0.1,2717.31,230.55
+1030,2023-04-10,Central,Consumer,Hina Shah,Furniture,Office Chair,9,363.97,0,3275.73,537.57
+1031,2024-04-15,North,SME,Sara Khan,Office Supplies,Printer Paper,9,659.42,0.2,4747.82,591.96
+1032,2024-03-25,East,Corporate,Sara Khan,Appliances,Vacuum,8,678.73,0,5429.84,1787.16
+1033,2024-12-12,West,Consumer,Sara Khan,Office Supplies,Binder,10,330.92,0.1,2978.28,932.34
+1034,2023-11-26,Central,Corporate,Hina Shah,Electronics,Headphones,6,180.37,0.05,1028.11,223.31
+1035,2023-01-02,Central,Corporate,Sara Khan,Furniture,Sofa,6,113.62,0,681.72,258.32
+1036,2023-12-05,Central,SME,Ayesha Malik,Electronics,Tablet,13,640.77,0.1,7497.01,2586.37
+1037,2024-01-04,South,Consumer,Ali Raza,Appliances,Blender,13,577.72,0,7510.36,1742.53
+1038,2023-04-08,South,Consumer,Ali Raza,Office Supplies,Printer Paper,4,918.3,0.15,3122.22,980.45
+1039,2023-10-19,East,Consumer,Usman Tariq,Furniture,Bookshelf,1,21.03,0.1,18.93,1.57
+1040,2024-01-23,West,Corporate,Usman Tariq,Appliances,Blender,13,365.19,0,4747.47,1901.62
+1041,2024-08-03,Central,SME,Usman Tariq,Office Supplies,Printer Paper,12,935.87,0.15,9545.87,862.44
+1042,2024-06-03,Central,SME,Usman Tariq,Furniture,Cabinet,3,285.46,0.15,727.92,110.01
+1043,2024-02-24,Central,SME,Ali Raza,Appliances,Coffee Maker,12,401.76,0,4821.12,2128.43
+1044,2023-04-07,Central,Corporate,Hina Shah,Electronics,Headphones,10,331.29,0,3312.9,562.28
+1045,2024-06-29,North,Consumer,Bilal Ahmed,Furniture,Bookshelf,14,715.59,0,10018.26,4488.75
+1046,2023-12-18,West,Corporate,Ali Raza,Furniture,Cabinet,13,884.04,0.2,9194.02,1014.23
+1047,2023-06-24,East,SME,Hina Shah,Electronics,Tablet,7,841.15,0.15,5004.84,1683.82
+1048,2023-07-02,Central,Consumer,Ayesha Malik,Office Supplies,Notebook,11,464.71,0.1,4600.63,685.28
+1049,2023-09-25,North,Consumer,Ali Raza,Furniture,Bookshelf,5,479.13,0.1,2156.08,223.96
+1050,2024-04-02,West,Corporate,Usman Tariq,Appliances,Coffee Maker,4,295.31,0,1181.24,347.03
+1051,2023-03-22,North,SME,Bilal Ahmed,Office Supplies,Pen Set,7,912.02,0.05,6064.93,2203.34
+1052,2023-03-23,East,Consumer,Usman Tariq,Appliances,Microwave,5,726.93,0,3634.65,1052.77
+1053,2023-12-15,Central,Consumer,Ayesha Malik,Furniture,Bookshelf,8,340.25,0.1,2449.8,358.54
+1054,2023-05-08,East,Consumer,Ali Raza,Electronics,Smartphone,3,732.75,0,2198.25,905.2
+1055,2023-01-26,East,Consumer,Hina Shah,Electronics,Laptop,8,678.11,0.2,4339.9,1308.08
+1056,2023-02-01,East,SME,Hina Shah,Electronics,Laptop,14,310.95,0,4353.3,845.71
+1057,2023-02-27,North,Consumer,Ali Raza,Office Supplies,Pen Set,7,98.61,0.05,655.76,215.23
+1058,2024-10-08,East,Corporate,Bilal Ahmed,Office Supplies,Printer Paper,14,305.76,0.1,3852.58,338.85
+1059,2024-10-21,Central,Corporate,Usman Tariq,Electronics,Monitor,9,193.12,0,1738.08,202.95
+1060,2023-06-21,Central,Corporate,Ali Raza,Appliances,Toaster,3,885.87,0,2657.61,652.14
+1061,2024-06-13,East,Consumer,Ali Raza,Appliances,Vacuum,3,427.34,0,1282.02,146.53
+1062,2023-05-10,West,SME,Ali Raza,Furniture,Desk,10,459.73,0.2,3677.84,48.41
+1063,2023-02-03,South,Consumer,Bilal Ahmed,Furniture,Cabinet,14,275.47,0.1,3470.92,929.51
+1064,2024-09-07,North,Consumer,Sara Khan,Furniture,Bookshelf,10,331.16,0.15,2814.86,814.24
+1065,2023-10-22,North,SME,Ali Raza,Appliances,Vacuum,3,596.75,0.15,1521.71,350.72
+1066,2023-05-22,West,SME,Sara Khan,Furniture,Bookshelf,7,707.21,0.1,4455.42,235.6
+1067,2024-01-10,Central,SME,Usman Tariq,Electronics,Laptop,9,547.5,0.1,4434.75,1699.19
+1068,2024-01-26,South,Corporate,Sara Khan,Office Supplies,Binder,7,45.93,0.1,289.36,110.82
+1069,2024-07-09,South,Corporate,Ali Raza,Furniture,Office Chair,2,906.25,0.15,1540.62,529.03
+1070,2024-11-28,Central,Corporate,Usman Tariq,Electronics,Headphones,6,95.33,0.15,486.18,140.84
+1071,2024-11-01,West,SME,Usman Tariq,Electronics,Tablet,2,796.07,0.05,1512.53,372.79
+1072,2023-01-27,East,Consumer,Usman Tariq,Electronics,Laptop,6,659.74,0,3958.44,531.6
+1073,2023-01-08,West,SME,Usman Tariq,Appliances,Vacuum,10,812.77,0.2,6502.16,400.49
+1074,2023-11-28,South,Consumer,Hina Shah,Electronics,Laptop,6,756.67,0,4540.02,1419.63
+1075,2024-12-16,South,Corporate,Sara Khan,Appliances,Vacuum,13,960.83,0.05,11866.25,1324.33
+1076,2023-01-31,West,SME,Usman Tariq,Office Supplies,Stapler,14,249.22,0.15,2965.72,601.55
+1077,2023-03-22,South,SME,Bilal Ahmed,Electronics,Monitor,3,290.12,0.1,783.32,81.77
+1078,2024-06-08,West,Corporate,Usman Tariq,Electronics,Monitor,5,435.94,0.15,1852.74,352.44
+1079,2024-04-30,West,Consumer,Usman Tariq,Electronics,Monitor,9,516.51,0,4648.59,1814.57
+1080,2023-04-27,North,SME,Ayesha Malik,Furniture,Sofa,7,997.79,0,6984.53,1176.67
+1081,2023-08-15,West,Consumer,Bilal Ahmed,Furniture,Desk,3,82.75,0.1,223.42,14.78
+1082,2024-09-14,East,Corporate,Sara Khan,Appliances,Coffee Maker,1,63.5,0,63.5,14.19
+1083,2023-03-03,West,Consumer,Hina Shah,Appliances,Vacuum,10,108.81,0,1088.1,279.05
+1084,2023-07-05,South,Consumer,Ayesha Malik,Electronics,Laptop,7,831.06,0.05,5526.55,1880.54
+1085,2024-01-21,East,SME,Ali Raza,Appliances,Blender,12,666.08,0.1,7193.66,701.94
+1086,2024-03-14,East,SME,Hina Shah,Electronics,Monitor,6,461.05,0,2766.3,1101.21
+1087,2024-05-12,North,SME,Ali Raza,Appliances,Vacuum,6,735.67,0,4414.02,1648.2
+1088,2024-10-19,South,Corporate,Bilal Ahmed,Appliances,Vacuum,12,160.56,0.2,1541.38,185.8
+1089,2024-06-19,North,Corporate,Ali Raza,Appliances,Toaster,9,239.25,0.05,2045.59,553.17
+1090,2024-04-15,North,Corporate,Ayesha Malik,Electronics,Headphones,10,771.43,0,7714.3,2064.35
+1091,2023-08-01,North,Corporate,Hina Shah,Electronics,Smartphone,12,308.52,0,3702.24,1090.95
+1092,2024-08-13,South,Corporate,Ali Raza,Electronics,Monitor,10,792.76,0,7927.6,3400.65
+1093,2024-10-27,North,Consumer,Ayesha Malik,Electronics,Tablet,12,44.01,0,528.12,119.61
+1094,2024-10-07,North,SME,Bilal Ahmed,Electronics,Monitor,8,513.17,0.15,3489.56,682.13
+1095,2023-02-13,South,Consumer,Hina Shah,Office Supplies,Stapler,6,351.12,0.05,2001.38,451.66
+1096,2024-08-11,Central,Corporate,Sara Khan,Office Supplies,Printer Paper,13,922.1,0.15,10189.2,1478.03
+1097,2024-01-21,West,SME,Usman Tariq,Office Supplies,Pen Set,6,219.14,0,1314.84,340.9
+1098,2023-03-30,North,SME,Usman Tariq,Appliances,Blender,1,217.31,0.15,184.71,54.16
+1099,2023-12-09,East,Corporate,Hina Shah,Office Supplies,Printer Paper,8,590.57,0.15,4015.88,1363.72
+1100,2024-07-23,West,SME,Bilal Ahmed,Appliances,Coffee Maker,6,399.66,0,2397.96,1051.26
+1101,2024-12-23,South,Consumer,Ali Raza,Furniture,Sofa,14,660.13,0.05,8779.73,3569.43
+1102,2023-04-15,West,Consumer,Ali Raza,Appliances,Microwave,3,933.41,0,2800.23,935.99
+1103,2023-06-11,West,Corporate,Ali Raza,Office Supplies,Notebook,6,472.12,0.15,2407.81,555.7
+1104,2023-06-14,West,SME,Hina Shah,Appliances,Coffee Maker,3,556.78,0.1,1503.31,550.73
+1105,2023-02-23,Central,Consumer,Hina Shah,Appliances,Microwave,8,742.08,0.1,5342.98,1997.4
+1106,2023-03-02,East,Consumer,Ayesha Malik,Office Supplies,Printer Paper,12,213.97,0,2567.64,970.13
+1107,2023-06-20,East,SME,Hina Shah,Office Supplies,Notebook,12,220.85,0,2650.2,843.58
+1108,2024-09-19,West,Consumer,Sara Khan,Office Supplies,Stapler,10,526.14,0,5261.4,1585.43
+1109,2024-12-24,West,SME,Hina Shah,Office Supplies,Pen Set,6,256.44,0,1538.64,469.37
+1110,2023-11-01,Central,Consumer,Hina Shah,Office Supplies,Pen Set,2,322.5,0,645,118.17
+1111,2023-08-11,South,Corporate,Hina Shah,Electronics,Headphones,3,928.58,0,2785.74,699.42
+1112,2024-02-01,South,SME,Usman Tariq,Appliances,Vacuum,9,873.38,0,7860.42,3423.15
+1113,2023-03-14,East,Consumer,Ayesha Malik,Electronics,Tablet,7,425.39,0.1,2679.96,1062.01
+1114,2023-05-31,South,Corporate,Ali Raza,Furniture,Sofa,3,851.51,0.2,2043.62,60.67
+1115,2024-02-26,East,Consumer,Usman Tariq,Electronics,Laptop,3,461.29,0,1383.87,194.85
+1116,2024-12-17,South,SME,Sara Khan,Electronics,Monitor,4,878.4,0.15,2986.56,266.92
+1117,2024-12-09,West,Consumer,Ali Raza,Electronics,Smartphone,14,712.6,0.05,9477.58,1151.23
+1118,2023-10-09,West,Consumer,Sara Khan,Furniture,Sofa,6,391.21,0.1,2112.53,184.14
+1119,2024-06-23,North,Corporate,Bilal Ahmed,Electronics,Tablet,6,195.66,0.2,939.17,170.69
+1120,2023-11-07,South,Consumer,Usman Tariq,Electronics,Tablet,3,148.51,0.05,423.25,155.8
+1121,2023-04-22,East,SME,Hina Shah,Office Supplies,Stapler,4,724.6,0.15,2463.64,519.44
+1122,2023-10-12,Central,Consumer,Usman Tariq,Furniture,Cabinet,6,830.38,0,4982.28,947.68
+1123,2024-09-03,West,SME,Hina Shah,Office Supplies,Printer Paper,11,343.1,0,3774.1,1139.49
+1124,2023-11-14,South,SME,Usman Tariq,Appliances,Coffee Maker,1,439.46,0.15,373.54,114.1
+1125,2024-06-23,West,Corporate,Bilal Ahmed,Electronics,Headphones,1,391.34,0,391.34,58.88
+1126,2023-10-10,South,Consumer,Sara Khan,Appliances,Coffee Maker,11,988.72,0,10875.92,3508.62
+1127,2023-12-25,Central,Corporate,Sara Khan,Electronics,Laptop,14,532.59,0.15,6337.82,477.33
+1128,2024-11-09,Central,Consumer,Sara Khan,Office Supplies,Printer Paper,6,275.89,0.15,1407.04,107.23
+1129,2023-03-03,South,Consumer,Hina Shah,Electronics,Laptop,3,700.1,0.15,1785.26,400.67
+1130,2024-03-01,North,Consumer,Ali Raza,Furniture,Cabinet,1,157.63,0,157.63,69.33
+1131,2024-03-15,East,Corporate,Ali Raza,Electronics,Smartphone,4,830.02,0.1,2988.07,996.88
+1132,2024-12-21,East,Consumer,Ali Raza,Office Supplies,Printer Paper,12,595.44,0,7145.28,736.04
+1133,2023-01-05,South,SME,Ali Raza,Office Supplies,Binder,11,941.68,0.2,8286.78,1969.06
+1134,2023-03-31,South,SME,Hina Shah,Office Supplies,Notebook,10,26.94,0.15,228.99,69.37
+1135,2024-08-12,South,SME,Hina Shah,Office Supplies,Printer Paper,13,152.31,0.1,1782.03,186.41
+1136,2023-01-27,East,Consumer,Bilal Ahmed,Appliances,Coffee Maker,11,502.8,0.05,5254.26,1011.85
+1137,2024-03-24,South,SME,Ali Raza,Office Supplies,Pen Set,8,290.99,0.05,2211.52,905.62
+1138,2023-12-09,West,SME,Sara Khan,Electronics,Monitor,4,821.22,0.1,2956.39,597.59
+1139,2024-12-11,West,Corporate,Usman Tariq,Office Supplies,Pen Set,3,557.45,0.2,1337.88,96.23
+1140,2024-09-29,North,Corporate,Bilal Ahmed,Electronics,Headphones,7,983.37,0,6883.59,2745.04
+1141,2024-02-20,West,Corporate,Ayesha Malik,Office Supplies,Stapler,10,856.5,0,8565,1709.25
+1142,2023-02-23,Central,SME,Ali Raza,Furniture,Cabinet,14,118.31,0,1656.34,192.29
+1143,2024-02-23,North,Corporate,Sara Khan,Electronics,Smartphone,5,376.5,0,1882.5,671.57
+1144,2023-06-25,South,Corporate,Usman Tariq,Appliances,Coffee Maker,1,754.92,0,754.92,181.48
+1145,2024-12-08,South,Corporate,Ayesha Malik,Electronics,Tablet,4,396.31,0,1585.24,275.82
+1146,2023-12-28,South,Corporate,Sara Khan,Furniture,Bookshelf,4,296,0.05,1124.8,246.05
+1147,2024-11-05,South,SME,Bilal Ahmed,Electronics,Monitor,5,212.49,0,1062.45,112.72
+1148,2024-11-07,South,Consumer,Hina Shah,Electronics,Smartphone,9,754.51,0,6790.59,947.1
+1149,2023-01-01,Central,Consumer,Hina Shah,Electronics,Tablet,10,357.8,0.05,3399.1,617.93
+1150,2023-03-05,West,Consumer,Usman Tariq,Furniture,Sofa,8,980.41,0.1,7058.95,1194.66
+1151,2024-03-30,North,Consumer,Ali Raza,Furniture,Desk,5,643.62,0,3218.1,334.87
+1152,2024-11-24,East,Consumer,Bilal Ahmed,Furniture,Cabinet,1,932.37,0,932.37,140.63
+1153,2023-03-28,North,SME,Hina Shah,Appliances,Microwave,1,328.42,0.05,312,68.77
+1154,2024-07-03,West,Consumer,Hina Shah,Furniture,Cabinet,11,234.38,0.05,2449.27,1012.42
+1155,2024-02-14,North,Consumer,Bilal Ahmed,Furniture,Bookshelf,10,795.63,0,7956.3,2155
+1156,2024-04-08,East,SME,Bilal Ahmed,Electronics,Monitor,5,247.39,0,1236.95,174.41
+1157,2023-07-12,North,Consumer,Usman Tariq,Furniture,Desk,5,253.93,0.2,1015.72,173.16
+1158,2023-06-04,Central,Corporate,Sara Khan,Office Supplies,Printer Paper,12,340.8,0.05,3885.12,767.5
+1159,2023-12-30,South,Consumer,Ali Raza,Appliances,Microwave,12,746.81,0.1,8065.55,2859.86
+1160,2024-03-13,East,Consumer,Bilal Ahmed,Office Supplies,Notebook,13,496.26,0,6451.38,728.81
+1161,2023-06-28,East,SME,Usman Tariq,Furniture,Cabinet,4,597.6,0.15,2031.84,150.34
+1162,2024-08-25,Central,Corporate,Usman Tariq,Office Supplies,Printer Paper,14,151.93,0.2,1701.62,54.91
+1163,2023-12-23,East,Corporate,Ali Raza,Appliances,Blender,11,907.91,0.05,9487.66,863.48
+1164,2023-05-17,South,Consumer,Ayesha Malik,Electronics,Laptop,6,261.13,0.15,1331.76,477.77
+1165,2024-11-17,South,SME,Bilal Ahmed,Electronics,Monitor,13,314.81,0.15,3478.65,886.52
+1166,2024-02-07,West,Corporate,Ali Raza,Office Supplies,Pen Set,12,801.02,0.2,7689.79,1645.42
+1167,2023-03-18,South,Consumer,Usman Tariq,Appliances,Vacuum,12,150.76,0.1,1628.21,396.38
+1168,2024-05-17,West,Corporate,Hina Shah,Electronics,Smartphone,10,138.19,0,1381.9,274.88
+1169,2024-07-25,East,Consumer,Hina Shah,Furniture,Bookshelf,11,98.5,0.2,866.8,137.84
+1170,2023-06-29,East,Corporate,Ali Raza,Appliances,Blender,3,110.52,0.05,314.98,81.72
+1171,2024-07-13,West,Corporate,Sara Khan,Appliances,Toaster,5,566.78,0.2,2267.12,237.78
+1172,2024-11-25,West,SME,Ayesha Malik,Appliances,Blender,4,244.03,0,976.12,277.46
+1173,2024-07-04,West,Consumer,Sara Khan,Furniture,Office Chair,6,300.04,0,1800.24,514.03
+1174,2023-03-06,West,Corporate,Bilal Ahmed,Office Supplies,Printer Paper,12,793.99,0.2,7622.3,1822.43
+1175,2023-02-21,South,Consumer,Usman Tariq,Office Supplies,Notebook,11,727.13,0,7998.43,1265.73
+1176,2023-09-30,Central,SME,Ali Raza,Appliances,Microwave,9,410.52,0.2,2955.74,869.58
+1177,2023-10-29,North,Corporate,Bilal Ahmed,Electronics,Smartphone,2,302.71,0,605.42,228.61
+1178,2024-10-06,East,Corporate,Ayesha Malik,Furniture,Bookshelf,9,478.6,0.15,3661.29,1068.67
+1179,2023-09-10,West,SME,Hina Shah,Electronics,Laptop,12,583.31,0.15,5949.76,1202.91
+1180,2023-11-16,East,SME,Ali Raza,Furniture,Office Chair,11,762.51,0.05,7968.23,1036.66
+1181,2023-11-09,East,Corporate,Bilal Ahmed,Furniture,Cabinet,9,177.16,0.05,1514.72,232.44
+1182,2023-10-24,North,SME,Sara Khan,Furniture,Sofa,2,459.03,0,918.06,108.81
+1183,2024-01-17,East,Corporate,Ayesha Malik,Furniture,Bookshelf,10,315.37,0,3153.7,818.07
+1184,2024-07-11,Central,SME,Ayesha Malik,Furniture,Cabinet,1,507.44,0.1,456.7,61.65
+1185,2024-02-22,West,Consumer,Bilal Ahmed,Electronics,Smartphone,11,611.22,0.05,6387.25,1671.21
+1186,2024-11-06,South,Corporate,Bilal Ahmed,Office Supplies,Binder,13,36.89,0,479.57,182.39
+1187,2023-07-17,South,SME,Ali Raza,Furniture,Bookshelf,2,130.57,0.2,208.91,46.96
+1188,2024-05-08,East,SME,Hina Shah,Furniture,Cabinet,8,95.49,0.05,725.72,66.76
+1189,2024-07-07,North,SME,Usman Tariq,Office Supplies,Notebook,5,585.07,0.2,2340.28,366.04
+1190,2024-11-09,North,Corporate,Hina Shah,Appliances,Coffee Maker,12,924.03,0,11088.36,3207.75
+1191,2023-05-07,West,SME,Hina Shah,Appliances,Coffee Maker,9,532.14,0.2,3831.41,1037.02
+1192,2023-09-25,Central,Corporate,Ali Raza,Electronics,Smartphone,8,985.07,0.05,7486.53,654.26
+1193,2023-06-19,East,Consumer,Bilal Ahmed,Office Supplies,Pen Set,4,874.39,0,3497.56,588.28
+1194,2023-01-04,East,Consumer,Hina Shah,Appliances,Microwave,5,849.65,0.2,3398.6,217.58
+1195,2024-09-10,Central,Corporate,Ali Raza,Electronics,Laptop,8,277.44,0.15,1886.59,536.01
+1196,2024-07-04,Central,Corporate,Hina Shah,Furniture,Sofa,6,308.3,0,1849.8,329.31
+1197,2023-04-02,West,Corporate,Usman Tariq,Appliances,Blender,12,569.74,0,6836.88,2826.58
+1198,2024-10-31,West,Consumer,Bilal Ahmed,Electronics,Headphones,13,46.39,0,603.07,192.89
+1199,2023-03-21,Central,Consumer,Sara Khan,Furniture,Office Chair,4,66.17,0.1,238.21,33.48
+1200,2024-06-09,North,Corporate,Usman Tariq,Electronics,Laptop,5,897.92,0,4489.6,938.53
+1201,2023-07-26,Central,Consumer,Hina Shah,Appliances,Microwave,12,969.64,0.15,9890.33,3296.58
+1202,2024-05-24,East,SME,Ayesha Malik,Electronics,Laptop,10,229.64,0,2296.4,738.9
+1203,2024-01-19,West,SME,Hina Shah,Electronics,Tablet,1,293.14,0,293.14,34.12
+1204,2023-03-30,North,Corporate,Ali Raza,Furniture,Office Chair,13,95.88,0.05,1184.12,242.74
+1205,2023-07-26,South,Consumer,Usman Tariq,Office Supplies,Stapler,2,105.28,0.1,189.5,68.62
+1206,2023-12-03,North,Corporate,Usman Tariq,Appliances,Vacuum,1,103.52,0.15,87.99,30.76
+1207,2023-01-27,East,Corporate,Usman Tariq,Appliances,Blender,11,905.88,0,9964.68,4369.21
+1208,2023-07-03,West,SME,Hina Shah,Furniture,Desk,8,160.52,0,1284.16,514.11
+1209,2024-08-20,Central,Corporate,Bilal Ahmed,Office Supplies,Printer Paper,7,886.16,0,6203.12,2392.32
+1210,2023-03-11,Central,Consumer,Ayesha Malik,Furniture,Sofa,9,485.94,0,4373.46,1793.39
+1211,2024-02-10,North,SME,Ayesha Malik,Office Supplies,Binder,5,668.85,0,3344.25,962.15
+1212,2023-01-10,Central,SME,Hina Shah,Electronics,Laptop,13,221.33,0,2877.29,1024.66
+1213,2023-06-29,Central,Corporate,Bilal Ahmed,Appliances,Vacuum,5,236,0.1,1062,290.45
+1214,2024-03-26,North,Consumer,Ayesha Malik,Furniture,Sofa,2,989.63,0.15,1682.37,469.34
+1215,2024-05-17,West,Corporate,Usman Tariq,Appliances,Microwave,2,401.54,0,803.08,149.11
+1216,2024-07-30,East,Consumer,Sara Khan,Office Supplies,Pen Set,8,472.74,0.15,3214.63,326.7
+1217,2024-02-15,North,Consumer,Usman Tariq,Appliances,Toaster,11,190.84,0.1,1889.32,400.33
+1218,2023-01-09,Central,Corporate,Bilal Ahmed,Electronics,Headphones,6,936.05,0.1,5054.67,1465.53
+1219,2023-07-23,Central,SME,Bilal Ahmed,Appliances,Microwave,11,861.22,0.2,7578.74,1658.33
+1220,2023-04-01,West,Consumer,Ayesha Malik,Electronics,Headphones,10,718.74,0.15,6109.29,1931.14
+1221,2023-10-29,Central,SME,Hina Shah,Electronics,Tablet,1,849.86,0,849.86,133.13
+1222,2023-07-22,East,SME,Ali Raza,Appliances,Blender,5,720.66,0.2,2882.64,736.71
+1223,2023-06-17,Central,Consumer,Hina Shah,Furniture,Desk,11,836.96,0,9206.56,2444.52
+1224,2024-07-21,West,Consumer,Usman Tariq,Furniture,Desk,2,837.07,0,1674.14,747.91
+1225,2023-05-06,Central,Corporate,Usman Tariq,Furniture,Bookshelf,11,115.23,0.1,1140.78,260.78
+1226,2023-06-30,Central,SME,Ali Raza,Office Supplies,Notebook,10,793.47,0.1,7141.23,2456.5
+1227,2023-04-03,North,Corporate,Usman Tariq,Furniture,Bookshelf,7,110.07,0.15,654.92,160.67
+1228,2024-01-16,East,Corporate,Hina Shah,Office Supplies,Stapler,5,599.79,0.1,2699.06,892.63
+1229,2024-04-10,West,Consumer,Usman Tariq,Electronics,Monitor,13,89.23,0,1159.99,429.86
+1230,2024-04-15,South,Consumer,Sara Khan,Appliances,Toaster,5,866.57,0,4332.85,1579.96
+1231,2023-03-05,West,Consumer,Ali Raza,Appliances,Blender,6,871.16,0.05,4965.61,839.74
+1232,2023-06-02,North,Consumer,Usman Tariq,Electronics,Headphones,14,785.99,0.05,10453.67,2956.46
+1233,2024-05-26,South,SME,Ali Raza,Appliances,Microwave,4,333.56,0,1334.24,400.4
+1234,2024-12-28,East,Consumer,Hina Shah,Office Supplies,Binder,6,206.5,0.15,1053.15,199.03
+1235,2023-10-21,North,Corporate,Hina Shah,Office Supplies,Notebook,3,401.28,0,1203.84,277.33
+1236,2023-01-01,East,Consumer,Usman Tariq,Electronics,Monitor,11,223.26,0,2455.86,941.11
+1237,2023-12-16,North,SME,Hina Shah,Furniture,Sofa,12,280.08,0,3360.96,606.01
+1238,2023-03-31,West,SME,Ali Raza,Electronics,Monitor,12,46.74,0.05,532.84,117.51
+1239,2024-12-20,Central,Consumer,Usman Tariq,Office Supplies,Notebook,2,543.29,0.15,923.59,25.38
+1240,2023-06-20,North,Consumer,Hina Shah,Appliances,Coffee Maker,4,633.62,0.1,2281.03,738.08
+1241,2024-07-09,Central,Consumer,Hina Shah,Electronics,Smartphone,8,277.59,0.05,2109.68,437.39
+1242,2024-10-12,West,SME,Ayesha Malik,Appliances,Vacuum,12,133.68,0,1604.16,626.55
+1243,2024-05-15,South,Corporate,Ali Raza,Appliances,Toaster,9,32.67,0,294.03,117.71
+1244,2023-12-03,North,Corporate,Usman Tariq,Office Supplies,Printer Paper,9,411.43,0.05,3517.73,716.73
+1245,2024-10-03,Central,SME,Bilal Ahmed,Electronics,Headphones,7,571.66,0,4001.62,962.35
+1246,2024-01-08,North,Consumer,Usman Tariq,Electronics,Headphones,7,199.99,0.15,1189.94,149.35
+1247,2024-02-25,East,Consumer,Usman Tariq,Appliances,Blender,5,20.81,0.2,83.24,22.28
+1248,2024-12-17,East,SME,Hina Shah,Appliances,Toaster,4,987.69,0.2,3160.61,523.98
+1249,2024-01-11,North,SME,Usman Tariq,Furniture,Desk,14,613.73,0.1,7733,844.88
+1250,2024-02-19,East,Corporate,Ali Raza,Appliances,Coffee Maker,10,325.1,0.05,3088.45,679.53
+1251,2023-06-04,East,Corporate,Bilal Ahmed,Furniture,Office Chair,6,278.85,0.15,1422.14,157.47
+1252,2023-05-30,East,Consumer,Bilal Ahmed,Appliances,Vacuum,10,521.57,0,5215.7,1536.39
+1253,2024-07-17,West,Corporate,Usman Tariq,Electronics,Headphones,13,531.11,0,6904.43,2190.7
+1254,2023-05-29,Central,Corporate,Ayesha Malik,Furniture,Office Chair,7,474.79,0,3323.53,638.65
+1255,2024-11-13,West,SME,Bilal Ahmed,Appliances,Microwave,4,189.73,0,758.92,150.66
+1256,2024-04-09,North,SME,Hina Shah,Office Supplies,Notebook,1,834.35,0,834.35,335.11
+1257,2023-06-03,Central,Consumer,Sara Khan,Electronics,Smartphone,1,638.21,0,638.21,221.54
+1258,2023-02-12,South,Consumer,Ali Raza,Office Supplies,Printer Paper,14,32.85,0.15,390.92,27.79
+1259,2023-09-02,West,Consumer,Hina Shah,Appliances,Microwave,14,487.46,0.2,5459.55,1443.51
+1260,2023-01-04,West,Consumer,Bilal Ahmed,Electronics,Laptop,9,546.33,0,4916.97,1748.01
+1261,2023-01-12,East,Consumer,Usman Tariq,Electronics,Headphones,13,909.03,0,11817.39,3394.93
+1262,2024-02-16,North,Consumer,Ali Raza,Office Supplies,Notebook,11,153.06,0,1683.66,742.09
+1263,2023-06-26,East,SME,Bilal Ahmed,Office Supplies,Notebook,14,866.53,0,12131.42,3712.16
+1264,2024-01-02,East,SME,Ali Raza,Electronics,Monitor,9,477.19,0.1,3865.24,973.31
+1265,2023-05-18,North,Consumer,Bilal Ahmed,Electronics,Tablet,9,220.85,0.2,1590.12,303.01
+1266,2023-07-16,East,Consumer,Bilal Ahmed,Furniture,Bookshelf,13,706.52,0.2,7347.81,2024.62
+1267,2023-11-23,North,SME,Usman Tariq,Electronics,Laptop,6,929.19,0.2,4460.11,1225.45
+1268,2024-09-24,South,Corporate,Ayesha Malik,Appliances,Microwave,7,325.7,0,2279.9,823.91
+1269,2024-08-28,West,SME,Bilal Ahmed,Furniture,Office Chair,2,340.09,0.1,612.16,174.35
+1270,2024-09-15,Central,Corporate,Hina Shah,Electronics,Laptop,3,364.72,0,1094.16,123.02
+1271,2024-03-05,West,Consumer,Ali Raza,Office Supplies,Binder,1,641.29,0.1,577.16,95.62
+1272,2024-12-25,East,Corporate,Sara Khan,Appliances,Blender,1,428.49,0.05,407.07,30.85
+1273,2023-02-04,North,Consumer,Sara Khan,Appliances,Toaster,12,532.67,0.05,6072.44,1754.44
+1274,2024-12-03,North,SME,Ali Raza,Electronics,Laptop,7,918.66,0.15,5466.03,799.95
+1275,2024-12-29,East,SME,Sara Khan,Office Supplies,Stapler,6,282.46,0.2,1355.81,207.98
+1276,2023-04-25,West,SME,Bilal Ahmed,Appliances,Vacuum,5,979.73,0,4898.65,1783.53
+1277,2023-05-05,East,Consumer,Hina Shah,Furniture,Cabinet,9,415.18,0,3736.62,1431.94
+1278,2023-05-21,North,Corporate,Ali Raza,Electronics,Headphones,4,79.15,0.1,284.94,79.56
+1279,2024-01-12,East,Corporate,Ali Raza,Furniture,Office Chair,3,605.83,0,1817.49,569.54
+1280,2024-08-05,East,SME,Ali Raza,Electronics,Headphones,6,798.69,0.2,3833.71,1053.09
+1281,2024-04-22,North,Consumer,Ali Raza,Electronics,Laptop,3,804.8,0,2414.4,593
+1282,2023-07-12,South,Corporate,Bilal Ahmed,Electronics,Monitor,14,24.96,0.05,331.97,46.45
+1283,2024-05-23,North,Consumer,Bilal Ahmed,Electronics,Monitor,5,590.76,0.2,2363.04,429.05
+1284,2023-05-24,East,Consumer,Usman Tariq,Electronics,Headphones,5,435.28,0.15,1849.94,304.42
+1285,2023-01-20,South,Consumer,Usman Tariq,Furniture,Bookshelf,2,287.88,0.15,489.4,104.85
+1286,2024-02-02,South,Consumer,Usman Tariq,Electronics,Monitor,11,747.33,0,8220.63,2470.75
+1287,2024-06-12,East,SME,Usman Tariq,Electronics,Monitor,2,573.96,0.05,1090.52,359.32
+1288,2023-08-08,East,Consumer,Ali Raza,Electronics,Smartphone,11,543.06,0,5973.66,1648.84
+1289,2024-01-25,North,SME,Bilal Ahmed,Appliances,Toaster,3,457.41,0.15,1166.4,181.43
+1290,2024-07-14,East,Consumer,Sara Khan,Office Supplies,Notebook,8,426.39,0.05,3240.56,891.8
+1291,2023-10-03,East,SME,Ali Raza,Electronics,Laptop,3,198.5,0.05,565.72,198.57
+1292,2024-09-12,South,Corporate,Ayesha Malik,Electronics,Monitor,12,500.22,0.2,4802.11,658.29
+1293,2024-02-22,West,SME,Ali Raza,Appliances,Blender,4,881.58,0.05,3350,1078.18
+1294,2024-07-22,South,Consumer,Ayesha Malik,Electronics,Tablet,4,712.52,0,2850.08,1231.72
+1295,2024-03-23,North,SME,Hina Shah,Office Supplies,Notebook,14,664.95,0,9309.3,966.29
+1296,2024-04-27,North,Corporate,Ali Raza,Appliances,Blender,11,667.08,0,7337.88,2096.37
+1297,2024-08-04,South,SME,Hina Shah,Electronics,Headphones,3,107.77,0.05,307.14,31.77
+1298,2023-10-09,North,Corporate,Hina Shah,Appliances,Vacuum,12,903.93,0.1,9762.44,1865.82
+1299,2024-06-28,East,Corporate,Bilal Ahmed,Electronics,Monitor,12,911.53,0.05,10391.44,2344.59
+1300,2023-06-13,West,Corporate,Ayesha Malik,Electronics,Smartphone,4,59.2,0.2,189.44,2.44
+1301,2023-09-29,Central,Consumer,Ali Raza,Office Supplies,Notebook,10,655.81,0,6558.1,1679.62
+1302,2024-10-20,Central,Consumer,Usman Tariq,Appliances,Coffee Maker,10,343.07,0.15,2916.1,339.88
+1303,2024-05-11,South,Corporate,Ali Raza,Appliances,Blender,7,734.83,0.15,4372.24,875.8
+1304,2023-07-27,West,SME,Ayesha Malik,Electronics,Tablet,6,497.57,0.15,2537.61,481.5
+1305,2023-02-14,North,Corporate,Ali Raza,Office Supplies,Stapler,8,883.48,0.15,6007.66,2098.32
+1306,2024-03-03,Central,Consumer,Ayesha Malik,Furniture,Office Chair,5,93.99,0,469.95,188.21
+1307,2023-02-28,Central,SME,Hina Shah,Electronics,Laptop,13,513.03,0.1,6002.45,2212.79
+1308,2024-08-11,South,Corporate,Bilal Ahmed,Electronics,Headphones,10,464.9,0.05,4416.55,1053.74
+1309,2023-06-04,West,SME,Usman Tariq,Appliances,Coffee Maker,8,321.87,0,2574.96,1098.97
+1310,2024-02-06,South,Consumer,Hina Shah,Furniture,Office Chair,4,740.98,0.2,2371.14,315.63
+1311,2024-01-23,North,Consumer,Hina Shah,Electronics,Smartphone,6,901.43,0.05,5138.15,1887.19
+1312,2023-10-16,Central,Corporate,Usman Tariq,Office Supplies,Notebook,1,81.9,0.2,65.52,18.69
+1313,2024-04-04,East,Consumer,Usman Tariq,Furniture,Bookshelf,1,605.41,0.2,484.33,16.25
+1314,2023-07-07,Central,Corporate,Sara Khan,Appliances,Microwave,6,978.32,0.1,5282.93,1254.08
+1315,2024-11-18,West,SME,Bilal Ahmed,Office Supplies,Pen Set,12,372.39,0,4468.68,1890.33
+1316,2023-02-03,South,SME,Ali Raza,Appliances,Toaster,11,465.43,0.05,4863.74,1483
+1317,2023-09-24,Central,SME,Bilal Ahmed,Office Supplies,Notebook,5,374.04,0.2,1496.16,255.36
+1318,2023-02-10,North,Corporate,Bilal Ahmed,Appliances,Microwave,10,933.37,0,9333.7,3159.74
+1319,2024-04-17,West,Consumer,Ali Raza,Electronics,Laptop,3,413.94,0,1241.82,539.51
+1320,2023-10-25,Central,Corporate,Ali Raza,Electronics,Laptop,10,482.43,0.15,4100.66,261.86
+1321,2023-08-29,East,Corporate,Usman Tariq,Appliances,Toaster,12,440.44,0,5285.28,1896.92
+1322,2023-07-18,Central,Consumer,Hina Shah,Electronics,Monitor,7,934.58,0,6542.06,1851.74
+1323,2023-07-21,Central,SME,Hina Shah,Electronics,Laptop,10,314.59,0,3145.9,1129.33
+1324,2023-09-10,South,Consumer,Ali Raza,Furniture,Office Chair,3,515.08,0,1545.24,200.84
+1325,2023-05-31,West,Consumer,Usman Tariq,Office Supplies,Notebook,10,549.27,0,5492.7,1436.95
+1326,2024-04-07,West,Consumer,Sara Khan,Appliances,Coffee Maker,8,536.34,0.15,3647.11,1072.66
+1327,2023-08-09,East,Consumer,Ayesha Malik,Furniture,Office Chair,10,167.48,0.05,1591.06,573.81
+1328,2024-01-14,Central,SME,Sara Khan,Furniture,Bookshelf,12,282.6,0,3391.2,925.06
+1329,2023-10-11,North,Consumer,Usman Tariq,Electronics,Monitor,2,877.82,0,1755.64,771.63
+1330,2024-05-14,West,SME,Bilal Ahmed,Appliances,Blender,8,659.94,0,5279.52,1728.25
+1331,2024-10-25,East,Consumer,Sara Khan,Appliances,Blender,14,919.5,0.2,10298.4,1019.42
+1332,2024-03-07,South,Consumer,Sara Khan,Furniture,Office Chair,5,471.54,0,2357.7,877.83
+1333,2024-11-24,Central,SME,Ayesha Malik,Electronics,Tablet,3,405.49,0.05,1155.65,352.54
+1334,2023-02-01,North,SME,Ayesha Malik,Office Supplies,Binder,2,49.28,0.15,83.78,15.77
+1335,2024-04-29,North,SME,Hina Shah,Furniture,Bookshelf,6,564.31,0,3385.86,1054.43
+1336,2023-09-26,North,Consumer,Ayesha Malik,Office Supplies,Printer Paper,10,468.45,0,4684.5,613.19
+1337,2023-11-09,East,Corporate,Sara Khan,Electronics,Headphones,4,674.05,0.1,2426.58,590.74
+1338,2023-02-21,South,Corporate,Hina Shah,Electronics,Monitor,13,912.74,0,11865.62,4052.31
+1339,2023-12-05,West,Corporate,Hina Shah,Furniture,Cabinet,13,489.59,0.2,5091.74,853.11
+1340,2023-04-26,West,SME,Usman Tariq,Electronics,Laptop,10,638.87,0.15,5430.4,1892.24
+1341,2023-05-16,West,SME,Bilal Ahmed,Office Supplies,Printer Paper,6,335.75,0,2014.5,848.56
+1342,2023-06-16,West,Consumer,Bilal Ahmed,Office Supplies,Pen Set,3,628.27,0,1884.81,349.81
+1343,2024-02-22,West,SME,Ali Raza,Furniture,Bookshelf,5,930.44,0.2,3721.76,14.03
+1344,2023-03-02,South,Consumer,Sara Khan,Office Supplies,Pen Set,11,938.08,0,10318.88,1687
+1345,2024-03-12,East,Consumer,Hina Shah,Furniture,Desk,6,539.43,0,3236.58,624.95
+1346,2024-11-12,North,Corporate,Bilal Ahmed,Furniture,Bookshelf,14,752.76,0,10538.64,1473.07
+1347,2024-07-24,East,Corporate,Bilal Ahmed,Appliances,Toaster,9,45.7,0.2,329.04,101.86
+1348,2023-01-21,South,Consumer,Usman Tariq,Office Supplies,Printer Paper,10,779.99,0.2,6239.92,2177.35
+1349,2023-02-05,West,SME,Ayesha Malik,Electronics,Laptop,9,684.24,0.2,4926.53,167.65
+1350,2024-07-22,Central,SME,Sara Khan,Furniture,Office Chair,2,715.01,0,1430.02,277.56
+1351,2024-08-14,South,Corporate,Sara Khan,Electronics,Monitor,11,808.25,0.15,7557.14,1093.85
+1352,2024-06-08,North,SME,Ali Raza,Electronics,Tablet,9,804.47,0,7240.23,2832.82
+1353,2023-09-22,Central,Consumer,Usman Tariq,Electronics,Laptop,5,125.63,0,628.15,176.85
+1354,2024-10-03,Central,Corporate,Ayesha Malik,Electronics,Monitor,3,626.62,0,1879.86,435.31
+1355,2023-06-18,Central,SME,Ayesha Malik,Furniture,Bookshelf,3,823.63,0,2470.89,604.77
+1356,2023-12-25,South,Corporate,Sara Khan,Appliances,Toaster,4,830.38,0,3321.52,569.71
+1357,2023-09-11,West,Corporate,Sara Khan,Furniture,Sofa,8,204.88,0.2,1311.23,166.16
+1358,2024-08-21,North,Corporate,Hina Shah,Office Supplies,Notebook,2,575.34,0,1150.68,321.51
+1359,2024-09-27,East,SME,Ali Raza,Electronics,Headphones,9,318.2,0.15,2434.23,304.03
+1360,2023-12-19,South,Corporate,Sara Khan,Electronics,Headphones,7,512.42,0,3586.94,1162.24
+1361,2023-01-23,Central,SME,Usman Tariq,Office Supplies,Notebook,13,489.66,0.15,5410.74,814.79
+1362,2024-08-23,West,Corporate,Ayesha Malik,Furniture,Cabinet,10,383.95,0,3839.5,1616.88
+1363,2023-05-01,South,Corporate,Ayesha Malik,Appliances,Vacuum,8,239.04,0.2,1529.86,17.91
+1364,2023-03-25,East,Corporate,Usman Tariq,Furniture,Cabinet,9,217.21,0,1954.89,573.92
+1365,2024-03-31,North,Corporate,Bilal Ahmed,Furniture,Cabinet,14,919.02,0.15,10936.34,1094.09
+1366,2024-10-02,North,Consumer,Sara Khan,Furniture,Sofa,8,371.19,0.2,2375.62,93.48
+1367,2024-12-07,West,Corporate,Usman Tariq,Electronics,Smartphone,3,626.21,0,1878.63,474.76
+1368,2023-06-15,East,SME,Usman Tariq,Furniture,Office Chair,10,88.62,0,886.2,103.5
+1369,2024-02-02,East,Corporate,Usman Tariq,Electronics,Laptop,6,308.54,0,1851.24,643.79
+1370,2023-09-30,South,Consumer,Sara Khan,Office Supplies,Binder,8,902.28,0,7218.24,1272
+1371,2024-04-19,South,SME,Bilal Ahmed,Appliances,Coffee Maker,2,463.75,0.2,742,104.94
+1372,2023-03-16,East,Consumer,Hina Shah,Office Supplies,Stapler,5,898.64,0.05,4268.54,609.73
+1373,2024-09-27,Central,Consumer,Bilal Ahmed,Electronics,Tablet,3,658.44,0,1975.32,451.56
+1374,2024-02-11,West,SME,Hina Shah,Furniture,Desk,11,955.32,0.1,9457.67,3018.86
+1375,2024-11-20,Central,Corporate,Hina Shah,Office Supplies,Binder,14,472.51,0.15,5622.87,545.86
+1376,2024-03-12,West,Corporate,Hina Shah,Furniture,Sofa,1,411.1,0,411.1,183.33
+1377,2023-05-31,East,Consumer,Ayesha Malik,Appliances,Coffee Maker,8,340.11,0.05,2584.84,501.91
+1378,2024-03-10,South,Consumer,Usman Tariq,Electronics,Tablet,7,416.12,0.15,2475.91,185.33
+1379,2023-01-03,West,SME,Hina Shah,Appliances,Toaster,6,994.35,0.05,5667.8,1686.97
+1380,2023-06-09,South,Corporate,Usman Tariq,Office Supplies,Notebook,9,895.57,0,8060.13,1586.66
+1381,2023-10-21,West,Consumer,Bilal Ahmed,Office Supplies,Stapler,6,619.89,0.1,3347.41,635.7
+1382,2023-07-28,West,Corporate,Sara Khan,Appliances,Vacuum,8,345.94,0.15,2352.39,805.2
+1383,2024-11-09,East,SME,Usman Tariq,Electronics,Smartphone,11,501.26,0,5513.86,2021.13
+1384,2023-08-18,East,Corporate,Ayesha Malik,Office Supplies,Stapler,10,529.35,0,5293.5,1538.82
+1385,2024-01-17,West,Consumer,Ali Raza,Furniture,Sofa,11,401.52,0.15,3754.21,196.09
+1386,2024-11-22,South,Consumer,Ali Raza,Furniture,Cabinet,13,219.57,0,2854.41,686.39
+1387,2023-11-26,Central,Corporate,Hina Shah,Electronics,Monitor,4,96.68,0.05,367.38,111
+1388,2024-07-23,North,SME,Sara Khan,Furniture,Office Chair,4,615.29,0.05,2338.1,590.29
+1389,2023-11-07,South,SME,Ali Raza,Appliances,Microwave,7,210.15,0,1471.05,591.33
+1390,2023-11-14,East,Consumer,Hina Shah,Electronics,Headphones,6,386.05,0,2316.3,756.41
+1391,2023-09-18,West,SME,Ali Raza,Furniture,Cabinet,5,944.79,0.15,4015.36,389.29
+1392,2024-04-24,South,SME,Usman Tariq,Appliances,Microwave,3,311.83,0,935.49,116.47
+1393,2023-07-14,North,SME,Ayesha Malik,Electronics,Smartphone,11,60.83,0,669.13,251.26
+1394,2024-07-15,Central,Corporate,Usman Tariq,Electronics,Monitor,7,698.29,0.15,4154.83,1393.17
+1395,2024-05-26,East,Corporate,Hina Shah,Electronics,Laptop,11,489.42,0.2,4306.9,36.98
+1396,2023-11-16,North,Consumer,Ali Raza,Furniture,Desk,12,324.37,0.2,3113.95,20.92
+1397,2023-04-22,South,SME,Hina Shah,Furniture,Cabinet,11,930.69,0.1,9213.83,1294.69
+1398,2024-03-16,East,Corporate,Sara Khan,Furniture,Sofa,9,935.34,0,8418.06,1058.1
+1399,2024-01-15,South,Consumer,Ali Raza,Furniture,Sofa,9,536.96,0.05,4591.01,1723.85
+1400,2024-10-29,North,SME,Usman Tariq,Office Supplies,Notebook,10,456.02,0.05,4332.19,926.42
+1401,2023-10-05,Central,SME,Usman Tariq,Furniture,Cabinet,9,47.96,0.1,388.48,102.23
+1402,2024-04-22,Central,SME,Usman Tariq,Furniture,Cabinet,3,754.24,0.1,2036.45,629.59
+1403,2023-06-10,South,Corporate,Usman Tariq,Furniture,Bookshelf,9,682.16,0.05,5832.47,2356.38
+1404,2023-03-24,North,Corporate,Ali Raza,Office Supplies,Pen Set,7,376.65,0.1,2372.9,433.81
+1405,2023-03-13,East,SME,Usman Tariq,Electronics,Laptop,4,63.4,0,253.6,103.27
+1406,2023-06-18,Central,SME,Usman Tariq,Electronics,Laptop,5,123.05,0,615.25,270.77
+1407,2023-09-02,Central,Corporate,Usman Tariq,Furniture,Bookshelf,7,905.34,0,6337.38,2430.56
+1408,2023-11-06,Central,Consumer,Sara Khan,Office Supplies,Pen Set,5,680.71,0.05,3233.37,580.52
+1409,2023-05-29,East,Corporate,Ayesha Malik,Office Supplies,Stapler,6,615.54,0.15,3139.25,679.94
+1410,2023-09-18,South,SME,Usman Tariq,Electronics,Laptop,1,211.67,0,211.67,76.32
+1411,2024-02-25,South,SME,Bilal Ahmed,Furniture,Desk,12,570.77,0,6849.24,1928.58
+1412,2024-08-09,West,Corporate,Ali Raza,Appliances,Blender,8,918.14,0.2,5876.1,601.23
+1413,2023-02-28,Central,Consumer,Ayesha Malik,Furniture,Office Chair,12,405.07,0,4860.84,1276.94
+1414,2024-04-05,North,Corporate,Usman Tariq,Office Supplies,Binder,9,884.74,0,7962.66,1671.37
+1415,2023-10-04,Central,Corporate,Sara Khan,Office Supplies,Pen Set,11,932.81,0.2,8208.73,865.33
+1416,2024-04-04,North,Consumer,Ali Raza,Office Supplies,Pen Set,4,416.36,0,1665.44,375.55
+1417,2024-02-13,East,Corporate,Usman Tariq,Appliances,Blender,5,748.84,0,3744.2,1562.63
+1418,2023-03-17,West,SME,Usman Tariq,Appliances,Coffee Maker,6,770.67,0.15,3930.42,1135.44
+1419,2023-08-22,Central,Corporate,Hina Shah,Appliances,Vacuum,14,325.61,0,4558.54,466.31
+1420,2024-03-09,South,SME,Usman Tariq,Appliances,Toaster,7,775.22,0,5426.54,705.49
+1421,2023-10-10,North,Corporate,Ali Raza,Electronics,Tablet,6,546.31,0,3277.86,787.69
+1422,2023-08-16,East,Corporate,Sara Khan,Electronics,Monitor,14,460.21,0.15,5476.5,843.01
+1423,2024-06-09,Central,Corporate,Bilal Ahmed,Furniture,Cabinet,12,950.22,0.2,9122.11,3086.81
+1424,2024-08-07,West,Corporate,Usman Tariq,Furniture,Desk,5,462.16,0.1,2079.72,737.44
+1425,2023-04-29,East,Consumer,Usman Tariq,Office Supplies,Printer Paper,9,567.7,0.15,4342.9,260.87
+1426,2024-12-19,North,SME,Ali Raza,Furniture,Desk,7,263.43,0.1,1659.61,275.54
+1427,2023-04-15,East,Corporate,Ali Raza,Office Supplies,Pen Set,3,886.7,0.2,2128.08,558.88
+1428,2023-09-03,East,SME,Hina Shah,Electronics,Smartphone,12,858.03,0.1,9266.72,1172.99
+1429,2023-06-19,South,Consumer,Usman Tariq,Appliances,Blender,10,305.95,0,3059.5,1353.88
+1430,2024-09-16,North,SME,Bilal Ahmed,Office Supplies,Pen Set,11,55.32,0,608.52,64.62
+1431,2024-11-15,West,Corporate,Ali Raza,Appliances,Vacuum,4,940.06,0.15,3196.2,130.36
+1432,2024-02-27,East,Corporate,Bilal Ahmed,Electronics,Tablet,4,805.97,0,3223.88,1240.79
+1433,2024-12-04,Central,Corporate,Hina Shah,Appliances,Coffee Maker,11,378.29,0,4161.19,1075.22
+1434,2024-01-29,West,SME,Ayesha Malik,Furniture,Bookshelf,9,184.51,0,1660.59,463.13
+1435,2024-01-11,West,Corporate,Sara Khan,Furniture,Desk,7,274.32,0,1920.24,760.35
+1436,2024-01-21,Central,SME,Sara Khan,Electronics,Laptop,4,706.91,0,2827.64,775.26
+1437,2024-05-30,Central,SME,Bilal Ahmed,Office Supplies,Binder,13,980.55,0,12747.15,4029.05
+1438,2023-07-09,North,SME,Ayesha Malik,Furniture,Office Chair,6,241.33,0.05,1375.58,400.54
+1439,2024-08-08,East,Consumer,Bilal Ahmed,Appliances,Vacuum,13,394.99,0.05,4878.13,722.39
+1440,2023-07-12,Central,Consumer,Ayesha Malik,Appliances,Blender,2,70.06,0.15,119.1,27.74
+1441,2023-10-28,East,Consumer,Ayesha Malik,Office Supplies,Notebook,4,220.15,0,880.6,354.88
+1442,2024-04-22,Central,Consumer,Ayesha Malik,Office Supplies,Printer Paper,12,290.83,0.05,3315.46,1344.92
+1443,2024-10-17,East,Corporate,Hina Shah,Furniture,Desk,1,208.93,0.15,177.59,47.35
+1444,2023-03-13,South,Corporate,Hina Shah,Electronics,Smartphone,7,440.93,0.15,2623.53,480.82
+1445,2023-08-30,West,Corporate,Usman Tariq,Office Supplies,Stapler,11,553.86,0.2,4873.97,1033.09
+1446,2024-07-31,Central,Corporate,Hina Shah,Office Supplies,Binder,2,77.45,0,154.9,28.93
+1447,2023-12-04,North,Corporate,Bilal Ahmed,Appliances,Coffee Maker,8,231,0,1848,429.29
+1448,2024-06-29,South,Corporate,Ali Raza,Office Supplies,Printer Paper,2,709.42,0.05,1347.9,139.06
+1449,2024-02-27,East,Consumer,Sara Khan,Appliances,Coffee Maker,12,576.9,0,6922.8,1365.08
+1450,2023-06-26,South,Consumer,Ayesha Malik,Appliances,Coffee Maker,5,32.35,0.2,129.4,12.24
+1451,2024-05-29,East,Consumer,Bilal Ahmed,Appliances,Vacuum,6,571.49,0,3428.94,947.3
+1452,2024-08-05,South,Corporate,Sara Khan,Office Supplies,Binder,10,117.46,0.05,1115.87,272.68
+1453,2023-12-30,Central,SME,Ali Raza,Electronics,Smartphone,4,882.56,0,3530.24,749.14
+1454,2024-09-03,North,SME,Sara Khan,Furniture,Office Chair,4,853.55,0,3414.2,933.79
+1455,2024-11-05,South,Consumer,Usman Tariq,Furniture,Cabinet,11,899.37,0.2,7914.46,2751.17
+1456,2024-03-05,South,Corporate,Bilal Ahmed,Appliances,Blender,9,244.52,0,2200.68,607.67
+1457,2023-04-12,East,Corporate,Hina Shah,Office Supplies,Pen Set,9,458.51,0.15,3507.6,867.69
+1458,2024-07-23,Central,SME,Hina Shah,Office Supplies,Stapler,10,236.4,0.05,2245.8,376.73
+1459,2024-02-27,South,SME,Ali Raza,Office Supplies,Notebook,8,325.74,0,2605.92,870.2
+1460,2023-11-29,Central,Corporate,Hina Shah,Furniture,Bookshelf,10,415.88,0,4158.8,1581.35
+1461,2023-07-13,South,Consumer,Sara Khan,Electronics,Monitor,8,634.43,0.2,4060.35,709.48
+1462,2023-01-25,South,SME,Ali Raza,Appliances,Blender,8,510.27,0,4082.16,527.45
+1463,2023-04-08,South,Consumer,Sara Khan,Electronics,Monitor,5,822.78,0.1,3702.51,334.54
+1464,2024-03-01,South,Consumer,Usman Tariq,Electronics,Smartphone,5,711.97,0.15,3025.87,1131.71
+1465,2023-01-25,Central,Corporate,Hina Shah,Office Supplies,Printer Paper,5,434.05,0.2,1736.2,355.83
+1466,2024-11-17,North,Consumer,Hina Shah,Office Supplies,Binder,4,866.72,0,3466.88,856.73
+1467,2023-10-08,West,Consumer,Usman Tariq,Appliances,Blender,4,952.94,0,3811.76,1277.89
+1468,2023-11-25,West,SME,Sara Khan,Electronics,Smartphone,13,167.39,0.05,2067.27,213.81
+1469,2023-12-28,Central,SME,Ali Raza,Electronics,Smartphone,1,161.87,0,161.87,17.88
+1470,2024-12-11,East,Corporate,Bilal Ahmed,Office Supplies,Stapler,13,646.46,0.2,6723.18,2047.58
+1471,2024-10-05,South,Corporate,Sara Khan,Electronics,Laptop,8,40.67,0.2,260.29,41.34
+1472,2023-03-10,North,Consumer,Ali Raza,Appliances,Vacuum,13,55.83,0.1,653.21,152
+1473,2024-06-01,North,SME,Ali Raza,Office Supplies,Binder,3,291.61,0.1,787.35,244.36
+1474,2023-09-01,South,Consumer,Usman Tariq,Electronics,Laptop,9,570.62,0.2,4108.46,47.02
+1475,2024-10-06,North,Consumer,Ayesha Malik,Appliances,Toaster,2,615.57,0.05,1169.58,151.38
+1476,2023-11-11,Central,Consumer,Bilal Ahmed,Electronics,Tablet,7,304.3,0.1,1917.09,190.77
+1477,2024-12-02,South,Corporate,Sara Khan,Electronics,Tablet,14,645.96,0.15,7686.92,2279.1
+1478,2024-09-27,South,Consumer,Ayesha Malik,Office Supplies,Pen Set,13,279.15,0,3628.95,1447.22
+1479,2024-09-14,East,SME,Bilal Ahmed,Furniture,Bookshelf,3,712.2,0.05,2029.77,428.5
+1480,2024-05-15,South,SME,Usman Tariq,Electronics,Monitor,9,994.64,0.05,8504.17,869.04
+1481,2024-10-07,East,SME,Usman Tariq,Furniture,Office Chair,10,475.16,0.15,4038.86,786.85
+1482,2024-11-14,North,Consumer,Usman Tariq,Furniture,Desk,7,35.75,0.2,200.2,44.18
+1483,2024-04-24,South,Consumer,Bilal Ahmed,Electronics,Headphones,5,454.44,0.05,2158.59,909.8
+1484,2023-03-02,Central,SME,Ali Raza,Appliances,Coffee Maker,11,118.55,0,1304.05,219.19
+1485,2024-08-18,West,SME,Ali Raza,Furniture,Bookshelf,2,243.65,0.05,462.94,145.83
+1486,2023-06-07,East,Consumer,Hina Shah,Furniture,Sofa,6,390.4,0.1,2108.16,629.17
+1487,2024-07-19,South,SME,Usman Tariq,Furniture,Office Chair,7,153.24,0.15,911.78,321.92
+1488,2024-03-21,South,SME,Usman Tariq,Appliances,Toaster,6,108.36,0.2,520.13,110.08
+1489,2023-11-27,North,Consumer,Usman Tariq,Appliances,Vacuum,11,903.71,0.1,8946.73,1508.95
+1490,2024-12-09,South,Corporate,Bilal Ahmed,Furniture,Bookshelf,11,71.31,0.1,705.97,132.97
+1491,2023-02-09,Central,Corporate,Ayesha Malik,Electronics,Tablet,10,420.42,0,4204.2,1158.86
+1492,2023-07-09,South,Corporate,Ali Raza,Furniture,Sofa,4,169.4,0,677.6,280.67
+1493,2023-07-25,East,Corporate,Bilal Ahmed,Appliances,Coffee Maker,12,456.78,0,5481.36,992.27
+1494,2023-04-19,South,Corporate,Ayesha Malik,Office Supplies,Notebook,10,515.63,0.15,4382.86,1474.03
+1495,2024-08-09,South,SME,Ali Raza,Electronics,Monitor,14,495.24,0,6933.36,2543.97
+1496,2023-09-19,West,SME,Usman Tariq,Electronics,Headphones,7,45.16,0.05,300.31,113.09
+1497,2023-01-31,South,Consumer,Usman Tariq,Furniture,Cabinet,12,840.44,0.05,9581.02,3367.52
+1498,2024-12-30,West,Corporate,Sara Khan,Electronics,Tablet,10,415.91,0,4159.1,830.78
+1499,2023-06-14,South,Consumer,Ayesha Malik,Appliances,Vacuum,5,735.75,0.05,3494.81,295.65
+1500,2023-01-01,West,SME,Hina Shah,Appliances,Vacuum,4,51.26,0.15,174.28,12.67
+1501,2024-09-14,North,Consumer,Bilal Ahmed,Appliances,Blender,3,828.5,0.1,2236.95,266.63
+1502,2024-09-08,North,SME,Sara Khan,Office Supplies,Pen Set,14,628.39,0.2,7037.97,2030.34
+1503,2024-03-27,North,Corporate,Bilal Ahmed,Appliances,Coffee Maker,11,546.82,0,6015.02,1749.32
+1504,2024-05-13,West,Corporate,Sara Khan,Furniture,Office Chair,5,891.18,0.15,3787.51,405.06
+1505,2023-08-26,East,Consumer,Sara Khan,Electronics,Tablet,14,728.5,0,10199,1597.2
+1506,2024-02-17,West,Consumer,Hina Shah,Office Supplies,Pen Set,11,611.25,0.1,6051.38,1144.18
+1507,2024-10-12,West,Corporate,Ali Raza,Office Supplies,Printer Paper,6,467.01,0.15,2381.75,527.52
+1508,2023-09-20,North,SME,Usman Tariq,Furniture,Office Chair,1,133.59,0,133.59,53.22
+1509,2023-10-24,North,Consumer,Ali Raza,Appliances,Microwave,8,711.25,0.1,5121,1470.61
+1510,2023-08-09,West,Consumer,Bilal Ahmed,Furniture,Sofa,14,21,0.15,249.9,92.47
+1511,2024-01-13,East,SME,Usman Tariq,Appliances,Vacuum,11,386.2,0.05,4035.79,863.77
+1512,2024-07-01,West,Corporate,Usman Tariq,Appliances,Toaster,6,356.32,0,2137.92,546.81
+1513,2024-04-09,West,SME,Ali Raza,Furniture,Sofa,12,529.54,0,6354.48,2507.85
+1514,2023-04-02,North,Corporate,Sara Khan,Furniture,Cabinet,2,625.88,0,1251.76,347.97
+1515,2023-08-29,North,Consumer,Sara Khan,Appliances,Blender,6,563.33,0,3379.98,902.05
+1516,2023-07-30,West,SME,Sara Khan,Furniture,Cabinet,11,771.97,0,8491.67,1345.22
+1517,2024-05-05,South,Consumer,Ayesha Malik,Furniture,Sofa,5,118.9,0,594.5,78.15
+1518,2024-06-29,West,SME,Ayesha Malik,Electronics,Headphones,7,465.82,0,3260.74,1027.22
+1519,2023-07-18,South,Consumer,Hina Shah,Office Supplies,Notebook,2,86.49,0.2,138.38,25.85
+1520,2023-04-23,South,Consumer,Sara Khan,Appliances,Microwave,3,678.43,0,2035.29,333.56
+1521,2023-09-18,South,Consumer,Sara Khan,Office Supplies,Notebook,10,299.31,0,2993.1,1244.46
+1522,2023-09-16,South,Corporate,Usman Tariq,Appliances,Vacuum,1,130.26,0,130.26,49.5
+1523,2024-04-05,South,Consumer,Hina Shah,Appliances,Coffee Maker,8,799.57,0.15,5437.08,148.35
+1524,2023-07-13,West,Corporate,Ali Raza,Furniture,Office Chair,2,891.63,0,1783.26,189.56
+1525,2024-08-11,Central,SME,Ali Raza,Electronics,Tablet,12,405.59,0,4867.08,1181.54
+1526,2023-02-05,North,Corporate,Sara Khan,Office Supplies,Printer Paper,1,292.13,0,292.13,63.21
+1527,2024-12-18,Central,Corporate,Sara Khan,Office Supplies,Notebook,13,537.42,0.05,6637.14,2556.17
+1528,2023-09-01,North,SME,Ali Raza,Appliances,Blender,5,203,0.1,913.5,69.13
+1529,2024-03-15,North,Corporate,Bilal Ahmed,Appliances,Microwave,3,211.98,0.05,604.14,70.54
+1530,2024-11-16,Central,Corporate,Usman Tariq,Electronics,Tablet,5,708.24,0,3541.2,1097.74
+1531,2024-12-27,South,SME,Bilal Ahmed,Electronics,Tablet,2,614.39,0,1228.78,446.43
+1532,2024-08-06,Central,Corporate,Sara Khan,Office Supplies,Binder,6,174.33,0,1045.98,266.9
+1533,2023-11-13,West,Consumer,Bilal Ahmed,Appliances,Vacuum,9,136.35,0.2,981.72,20.2
+1534,2023-12-22,West,SME,Ali Raza,Electronics,Smartphone,5,108.93,0,544.65,70.1
+1535,2023-02-23,East,SME,Usman Tariq,Furniture,Office Chair,4,307.22,0,1228.88,213.71
+1536,2024-02-16,North,Corporate,Hina Shah,Electronics,Smartphone,4,427.91,0.05,1626.06,440.38
+1537,2023-07-09,North,Corporate,Sara Khan,Furniture,Office Chair,1,503.16,0,503.16,120.01
+1538,2024-01-07,South,SME,Ali Raza,Furniture,Cabinet,10,341.51,0,3415.1,1408.18
+1539,2023-07-26,South,Consumer,Usman Tariq,Furniture,Desk,3,895.17,0.2,2148.41,566.96
+1540,2023-03-29,Central,Corporate,Usman Tariq,Appliances,Microwave,13,787.88,0.05,9730.32,1259.71
+1541,2024-12-23,West,Consumer,Usman Tariq,Office Supplies,Stapler,4,355.44,0.05,1350.67,229.33
+1542,2024-03-23,Central,Consumer,Ayesha Malik,Furniture,Cabinet,14,843.23,0.1,10624.7,4003.65
+1543,2023-01-08,North,Corporate,Bilal Ahmed,Furniture,Sofa,10,164.28,0,1642.8,336.81
+1544,2024-12-12,Central,SME,Hina Shah,Appliances,Vacuum,3,328.29,0,984.87,170.97
+1545,2023-02-05,Central,Corporate,Ayesha Malik,Electronics,Smartphone,9,78.26,0.05,669.12,257.83
+1546,2023-03-05,North,Consumer,Ayesha Malik,Electronics,Tablet,3,686.83,0,2060.49,271.31
+1547,2024-04-07,North,Consumer,Sara Khan,Furniture,Sofa,1,366.09,0.1,329.48,100.89
+1548,2024-06-10,West,SME,Bilal Ahmed,Appliances,Microwave,12,913,0,10956,1258.97
+1549,2023-01-15,East,SME,Bilal Ahmed,Electronics,Tablet,12,357.97,0.15,3651.29,200.19
+1550,2023-09-29,East,SME,Hina Shah,Office Supplies,Binder,12,101.92,0,1223.04,316.7
+1551,2023-06-07,South,Corporate,Usman Tariq,Electronics,Headphones,5,636.65,0.1,2864.92,1094.27
+1552,2024-12-18,South,Corporate,Bilal Ahmed,Electronics,Laptop,7,603.81,0,4226.67,1019.62
+1553,2024-09-20,West,Corporate,Ayesha Malik,Furniture,Office Chair,11,783.23,0.2,6892.42,2345.24
+1554,2023-10-28,West,Corporate,Hina Shah,Appliances,Blender,3,981.31,0,2943.93,1114.49
+1555,2024-02-25,North,SME,Hina Shah,Electronics,Laptop,2,510.28,0.2,816.45,153.19
+1556,2023-12-14,North,Consumer,Hina Shah,Office Supplies,Notebook,10,814.87,0,8148.7,3601.13
+1557,2024-04-08,East,SME,Usman Tariq,Office Supplies,Stapler,10,565.76,0.05,5374.72,945.3
+1558,2024-09-06,East,Consumer,Sara Khan,Appliances,Blender,14,692.36,0.05,9208.39,1495.65
+1559,2023-02-03,South,SME,Bilal Ahmed,Furniture,Desk,10,605.2,0,6052,1205.31
+1560,2023-03-07,South,Corporate,Sara Khan,Electronics,Laptop,7,57.17,0,400.19,161.71
+1561,2023-10-21,East,SME,Ayesha Malik,Office Supplies,Printer Paper,13,801.04,0,10413.52,4430.42
+1562,2024-02-25,North,Consumer,Ali Raza,Appliances,Coffee Maker,10,388.38,0,3883.8,819.13
+1563,2024-01-19,North,Consumer,Sara Khan,Electronics,Headphones,12,61.83,0,741.96,279.08
+1564,2023-05-28,Central,Corporate,Ayesha Malik,Appliances,Vacuum,5,252.25,0.1,1135.12,246.71
+1565,2023-09-21,Central,Corporate,Sara Khan,Office Supplies,Printer Paper,1,526.76,0,526.76,201.96
+1566,2023-09-23,North,SME,Ali Raza,Furniture,Desk,4,672.09,0,2688.36,494.53
+1567,2023-05-16,Central,SME,Bilal Ahmed,Office Supplies,Pen Set,9,725.97,0,6533.73,1728.42
+1568,2023-01-08,East,SME,Usman Tariq,Appliances,Blender,9,24.58,0.05,210.16,24.28
+1569,2023-10-18,South,SME,Sara Khan,Furniture,Office Chair,1,371.8,0,371.8,109.78
+1570,2023-05-20,West,SME,Bilal Ahmed,Furniture,Bookshelf,3,147.39,0.1,397.95,28.23
+1571,2023-11-18,South,Consumer,Hina Shah,Appliances,Toaster,6,191.45,0,1148.7,408.41
+1572,2024-04-17,South,Consumer,Sara Khan,Appliances,Toaster,2,450.14,0.2,720.22,154.46
+1573,2024-03-03,South,Corporate,Usman Tariq,Furniture,Desk,9,300.72,0,2706.48,662.03
+1574,2023-10-31,East,Corporate,Ayesha Malik,Office Supplies,Printer Paper,1,802.6,0.05,762.47,190.13
+1575,2024-06-24,Central,Consumer,Ayesha Malik,Appliances,Toaster,9,506.69,0.1,4104.19,810.4
+1576,2023-10-28,West,Consumer,Hina Shah,Furniture,Office Chair,13,565.85,0.1,6620.45,1409.68
+1577,2023-08-06,North,SME,Ayesha Malik,Furniture,Office Chair,12,595.83,0.1,6434.96,2081.38
+1578,2024-08-16,South,SME,Bilal Ahmed,Appliances,Blender,14,918.06,0.15,10924.91,1617.74
+1579,2024-07-04,North,SME,Hina Shah,Electronics,Monitor,5,462.38,0,2311.9,650.55
+1580,2023-05-11,East,Consumer,Ali Raza,Electronics,Monitor,2,681.24,0,1362.48,505.94
+1581,2023-03-03,Central,SME,Usman Tariq,Office Supplies,Printer Paper,12,803.83,0,9645.96,3584.2
+1582,2023-05-15,Central,SME,Sara Khan,Office Supplies,Printer Paper,6,799.49,0.1,4317.25,1209.65
+1583,2024-09-03,South,Corporate,Ali Raza,Office Supplies,Stapler,3,956.06,0,2868.18,508.08
+1584,2024-03-03,South,SME,Ali Raza,Furniture,Sofa,4,904.93,0,3619.72,1531.62
+1585,2024-09-21,East,Corporate,Sara Khan,Furniture,Desk,11,934.69,0,10281.59,1147.16
+1586,2023-07-15,South,Consumer,Ayesha Malik,Appliances,Blender,7,746.03,0,5222.21,1061.4
+1587,2024-11-13,Central,Corporate,Hina Shah,Electronics,Tablet,4,755.63,0.2,2418.02,802.79
+1588,2024-10-15,East,Corporate,Usman Tariq,Appliances,Coffee Maker,1,308.52,0.15,262.24,42.49
+1589,2024-02-27,South,Corporate,Sara Khan,Appliances,Coffee Maker,4,146.31,0,585.24,176.36
+1590,2023-08-25,East,SME,Ali Raza,Appliances,Microwave,13,486.37,0,6322.81,1626.2
+1591,2024-11-16,Central,SME,Bilal Ahmed,Electronics,Monitor,13,343.57,0.15,3796.45,886.18
+1592,2024-04-22,North,SME,Usman Tariq,Office Supplies,Pen Set,3,412.41,0.2,989.78,318.88
+1593,2024-04-03,North,SME,Bilal Ahmed,Office Supplies,Stapler,11,361.12,0.15,3376.47,998.72
+1594,2023-11-09,East,Consumer,Bilal Ahmed,Furniture,Bookshelf,4,321.44,0,1285.76,203.76
+1595,2023-10-02,Central,Corporate,Bilal Ahmed,Appliances,Microwave,9,900.58,0,8105.22,1553.78
+1596,2024-09-04,East,Corporate,Ali Raza,Appliances,Blender,5,539.85,0.15,2294.36,679.88
+1597,2023-01-07,East,Corporate,Hina Shah,Electronics,Laptop,13,628.98,0,8176.74,1163.74
+1598,2023-12-03,Central,Corporate,Usman Tariq,Office Supplies,Pen Set,11,205.13,0.05,2143.61,495.44
+1599,2024-07-29,Central,SME,Bilal Ahmed,Appliances,Toaster,1,95.58,0.05,90.8,27.72
+1600,2023-07-27,West,Corporate,Sara Khan,Electronics,Tablet,5,377.17,0,1885.85,735.69
